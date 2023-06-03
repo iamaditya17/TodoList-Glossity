@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Cedarville+Cursive&family=Edu+QLD+Beginner:wght@500&family=Geologica:wght@500&family=Itim&family=Josefin+Sans:wght@700&family=Oswald:wght@400;600;700&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@400;500&family=Roboto:wght@400;700&family=Square+Peg&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);;
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h1{
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Geologica', sans-serif;
+}
+
+input{
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border-bottom: none;
+}
+
+/* ----addSection CSS------ */
+
+.addSection{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11%;
+}
+
+.addSection input{
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.addSection button{
+  padding: 10px 28px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+.toDoLists{
+  margin-left: 9%;
+}
+
+.toDo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  /* margin-left: 3%; */
+  width: 85%;
+}
+
+.text{
+  text-align: left;
+}
+.icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  font-size: 20px;
+  cursor: pointer;
+}
+
